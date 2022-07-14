@@ -1,0 +1,527 @@
+@media (max-width: 1400px) {
+  .about-us__worker {
+    width: 1400px;
+    min-height: 0;
+    height: 642px;
+  }
+  .about-us__wrapper {
+    flex-wrap: wrap;
+  }
+  .worker__text {
+    max-width: 1400px;
+  }
+  .worker {
+    margin: 0 0 29px 0;
+  }
+  .worker__btn {
+    position: absolute;
+    right: 50px;
+  }
+  .worker__caption {
+    padding: 48px 300px 51px 50px;
+    max-width: 1400px;
+  }
+  .about-us__articles {
+    max-width: 1400px;
+  }
+  .about-us__articles-title {
+    max-width: 1400px;
+  }
+  .about-us__articles-text {
+    max-width: 1400px;
+  }
+  .opportunities__pic {
+    max-height: 450px;
+  }
+}
+
+@media (max-width: 1235px) {
+  .main__title {
+    max-width: none;
+  }
+  .footer__item-right {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .main {
+    padding-bottom: 80px;
+  }
+  .main__article {
+    padding: 40px 190px 0px 0px;
+  }
+  .main__text {
+    margin-bottom: 49px;
+    max-width: none;
+  }
+  .main__title {
+    margin-bottom: -8px;
+  }
+  .header__burger {
+    display: flex;
+    width: 30px;
+    height: 23px;
+  }
+  .header__btn_focus:focus {
+    color: var(--orange-deep-color);
+    outline: 2px solid var(--orange-color);
+    outline-offset: 3px;
+  }
+  .header__btn_display {
+    display: block;
+  }
+  .header__nav {
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+  }
+  .header__nav-list {
+    display: none;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  .main-container {
+    background-image: url("../img/main/1024low-angle-photo-of-balconies-2462015 1.jpg");
+  }
+  .about-us {
+    padding-bottom: 80px;
+  }
+  .about-us__title {
+    margin-bottom: 9px;
+    max-width: 1024px;
+  }
+  .about-us__text {
+    margin-bottom: 63px;
+    max-width: 1024px;
+  }
+  .opportunities {
+    padding-bottom: 80px;
+  }
+  .opportunities-articles__wrapper {
+    margin-bottom: 55px;
+  }
+  .opportunities-articles {
+    margin-right: 80px;
+  }
+  .opportunities-articles__text {
+    max-width: 1024px;
+  }
+  .opportunities__list {
+    margin-bottom: 53px;
+  }
+  .questions__title {
+    margin-bottom: 31px;
+    max-width: 1024px;
+  }
+  .questions__item {
+    font-size: 20px;
+  }
+  .main__text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main__title {
+    font-size: 60px;
+    line-height: 73px;
+  }
+  .footer__item-right {
+    display: none;
+  }
+  .opportunities__title {
+    max-width: 1024px;
+  }
+  .header__burger-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .header__burger-bg-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .stop-scroll {
+    overflow: hidden;
+  }
+  .burger {
+    position: relative;
+  }
+  .burger__line {
+    border-top: 3px solid var(--black-color);
+    background-color: transparent;
+  }
+  .burger__line:hover, .burger__line:focus {
+    border-color: var(--orange-color);
+    transition: border-color 0.3s ease;
+  }
+  .burger__line::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: var(--black-color);
+    top: 7px;
+    right: 0;
+  }
+  .burger__line::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: var(--black-color);
+    top: 17px;
+    right: 0;
+  }
+  .burger__line:hover::before, .burger__line:focus::before {
+    background-color: var(--orange-color);
+    width: 70%;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+  .burger__line:hover::after, .burger__line:focus::after {
+    background-color: var(--orange-color);
+    width: 50%;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+  .burger__line.burger__line--active {
+    transform: rotate(45deg) translate(0px, 10px);
+  }
+  .burger__line.burger__line--active::before {
+    display: none;
+  }
+  .burger__line.burger__line--active::after {
+    transform: rotate(90deg) translate(-20px, 0px);
+  }
+  .burger__line.burger__line--active:hover::after, .burger__line.burger__line--active:focus::after {
+    width: 100%;
+  }
+  .burger__line.burger__line--active:hover::before, .burger__line.burger__line--active:focus::before {
+    width: 100%;
+  }
+  .search-input__wrapper {
+    right: 55px;
+  }
+
+  .header__nav-panel {
+    top: 0;
+    right: 0;
+    max-width: 240px;
+    height: 100vh;
+    background-color: var(--white-color);
+    position: fixed;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px var(--black-rgb));
+    box-shadow: 0 5px 40px var(--shadow-rgb);
+  }
+  .open {
+    transform: translateX(0%);
+    transition: all 0.5s ease;
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 970px) {
+  .worker__text {
+    margin-right: 0;
+  }
+  .opportunities__wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .opportunities__pic {
+    max-width: 100%;
+  }
+  .opportunities-articles {
+    margin-right: 0;
+  }
+  .opportunities__pic-wrapper {
+    margin-bottom: 32px;
+  }
+  .opportunities__title {
+    max-width: 970px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .main__article {
+    padding: 40px 90px 0px 0px;
+  }
+
+  .main__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .main__text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .worker__caption {
+    padding: 34px 234px 34px 40px;
+  }
+
+  .worker__btn {
+    right: 40px;
+  }
+
+  .first-card {
+    background: url("../img/about-us/768-1.svg") no-repeat 40px 68px;
+  }
+
+  .second-card {
+    background: url("../img/about-us/768-2.svg") no-repeat 40px 68px;
+  }
+
+  .about-us__articles {
+    padding: 68px 48px 45px 165px;
+  }
+
+  .opportunities__wrapper {
+    max-width: 768px;
+  }
+  .opportunities__pic {
+    max-width: 100%;
+  }
+  .opportunities-articles__text {
+    max-width: 667px;
+  }
+
+  .footer__nav-list {
+    display: none;
+  }
+
+  .nav-link {
+    margin-bottom: 0;
+  }
+  .footer__item-left {
+    min-height: 0;
+  }
+  .footer__list {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .footer__item-center {
+    margin-bottom: 50px;
+  }
+  .opportunities__title {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 524px) {
+  .container {
+    max-width: 524px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .header__container {
+    height: 69px;
+  }
+  .main-container {
+    min-height: 0;
+  }
+  .main__article {
+    padding: 30px 10px;
+  }
+  .main__title {
+    margin-bottom: 6px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .about-us__articles {
+    outline: none;
+  }
+
+  .about-us__articles-text {
+    max-width: 320px;
+  }
+  .first-card {
+    padding: 60px 0 0 0;
+    background: url("../img/about-us/320Frame39.svg") no-repeat;
+  }
+  .second-card {
+    padding: 60px 0 0 0;
+    background: url("../img/about-us/320Frame38.svg") no-repeat;
+  }
+  .worker__caption {
+    background: none;
+    padding: 0;
+    position: relative;
+  }
+  .worker__text {
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--text-color);
+  }
+  .worker__btn {
+    position: relative;
+  }
+  .worker__caption {
+    display: block;
+  }
+  .worker__btn {
+    padding: 11px 14px 11px 14px;
+    width: 162px;
+    min-height: 40px;
+    position: initial;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--orange-color);
+  }
+  .worker {
+    margin: 0 0 200px 0;
+  }
+  .opportunities__item:not(:last-child) {
+    margin-right: 28px;
+  }
+  .main__article {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .main {
+    padding-bottom: 60px;
+  }
+  .main__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__title {
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    min-height: 0;
+  }
+  .main__text {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .main__btn {
+    padding: 0;
+    max-width: 162px;
+    min-height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .main__article {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+  }
+  .about-us__worker {
+    height: auto;
+  }
+  .about-us__title {
+    margin-bottom: 20px;
+    min-height: 0;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .about-us__text {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .worker {
+    margin: 0 0 32px 0;
+  }
+  .worker__img {
+    height: auto;
+  }
+  .about-us__articles-title {
+    max-width: 320px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .opportunities__title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 59px;
+  }
+  .opportunities__list {
+    margin-bottom: 16px;
+  }
+  .opportunities__item:not(:last-child) {
+    margin-right: 28px;
+  }
+  .opportunities-articles__title {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .opportunities-articles__text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .opportunities-articles__btn {
+    margin-right: 5px;
+    padding: 11px 14px 11px 14px;
+    width: 162px;
+    min-height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+
+  }
+  .opportunities-articles__link {
+    width: 118px;
+    min-height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 29px 11px 29px;
+  }
+  .questions__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .questions__item {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .questions {
+    padding-bottom: 60px;
+  }
+  .footer__form-text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .footer__btn {
+    margin: 0 auto;
+  }
+}
